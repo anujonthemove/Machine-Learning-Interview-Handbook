@@ -5,8 +5,16 @@
 #### Q. What are some of the commonly used activation functions?
 
 * [https://www.v7labs.com/blog/neural-networks-activation-functions](https://www.v7labs.com/blog/neural-networks-activation-functions)
+
 * [https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e](https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e)
+
 * [https://towardsdatascience.com/what-is-activation-function-1464a629cdca](https://towardsdatascience.com/what-is-activation-function-1464a629cdca)
+
+* [https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6](https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6)
+
+* [https://www.superannotate.com/blog/activation-functions-in-neural-networks](https://www.superannotate.com/blog/activation-functions-in-neural-networks)
+
+
 * Paper: [https://arxiv.org/pdf/2101.09957v1.pdf](https://arxiv.org/pdf/2101.09957v1.pdf)
 
 #### Q. Why do we need non-linear activation functions in Neural Networks?
@@ -76,22 +84,5 @@ We do not use gradients, we use sub-gradients for the parts other than x=0
 [https://iq.opengenus.org/relu-activation/](https://iq.opengenus.org/relu-activation/)
 
 
+[https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning/notebook](https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning/notebook)
 
-
-
-
-
-### Resources
-These are some which I used at some point in time but I did not want to miss them out:
-
-Activation functions:
-
-* [https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6](https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6)
-
-* [https://www.superannotate.com/blog/activation-functions-in-neural-networks](https://www.superannotate.com/blog/activation-functions-in-neural-networks)
-
-ReLU:
-
-* [https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning/notebook](https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning/notebook)
-
-* https://iq.opengenus.org/relu-activation/
