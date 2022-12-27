@@ -1,0 +1,44 @@
+site_name: Machine Learning Interview Handbook
+site_description: Machine Learning, Deep Learning interview questions
+
+repo_url: https://github.com/anujonthemove/Machine-Learning-Interview-Handbook
+repo_name: anujonthemove/Machine-Learning-Interview-Handbook
+
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+
+  palette:
+    primary: green
+  
+  font:
+    text: Epilogue
+
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: 'index.md'
+  #- 'Machine Learning': 'machine-learning.md'
+  - 'Deep Learning': 
+    - 'Feed Forward Neural Networks': 'feed-forward-nns.md'
+    - 'Activation Functions': 'activation-functions.md'
+    - 'Loss Functions' : 'loss-functions.md'
+    - 'Optimizers': 'optimizers.md'
+    - 'Layers': 'layers.md'
+    - 'Regularization Techniques': 'regularization-techniques.md'
+    - 'Evaluation Metrics': 'evaluation-metrics.md'
