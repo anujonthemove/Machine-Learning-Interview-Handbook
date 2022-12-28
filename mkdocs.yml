@@ -46,8 +46,10 @@ nav:
   - 'Deep Learning': 
     - 'Feed Forward Neural Networks': 'feed-forward-nns.md'
     - 'Activation Functions': 'activation-functions.md'
+    - 'Setting up': 'setting-up.md'
     - 'Loss Functions' : 'loss-functions.md'
     - 'Optimizers': 'optimizers.md'
-    - 'Layers': 'layers.md'
     - 'Regularization Techniques': 'regularization-techniques.md'
-    - 'Evaluation Metrics': 'evaluation-metrics.md'
+    - 'Model Training': 'model-training.md'
+    - 'Model Evaluation': 'model-evaluation.md'
+  - Deep Learning - Computer Vision: 'deep-learning-computer-vision.md'

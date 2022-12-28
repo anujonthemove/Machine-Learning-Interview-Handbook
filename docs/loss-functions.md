@@ -98,15 +98,15 @@ It gives us the average amount of information that you get from one sample drawn
 
 **KL Divergence**
 
-The amount by which the cross entropy exceeds the entropy is called the relative entropy or commonly KL Divergence
+* The amount by which the cross entropy exceeds the entropy is called the relative entropy or commonly KL Divergence
 
-Cross Entropy = Entropy + KL Divergence
+* Cross Entropy = Entropy + KL Divergence
 
-$D_{KL}(p||q) = H(p, q) - H(p)$
+    $D_{KL}(p||q) = H(p, q) - H(p)$
 
-It is a measure of the information lost when Q is used to approximate P
+* It is a measure of the information lost when Q is used to approximate P
 
-[https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications](https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications)
+    [https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications](https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications)
     
 #### Q. How are entropy and probability related?
     
