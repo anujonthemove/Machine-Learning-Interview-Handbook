@@ -1,6 +1,4 @@
 
-### Theoretical 
-
 #### Q. What are Feed Forward Neural Networks? Describe in detail
     
 Typically, the computation in a Feed Forward Neural Network is organized in a Directed Acyclic Computational Graph(DAG) in the following manner:
@@ -28,15 +26,24 @@ Typically, the computation in a Feed Forward Neural Network is organized in a Di
     
 #### Q. What is the use of Bias term?
 
-____
+#### Q. Are neural networks convex?
+
+Neural netowrks are not essentially convex, since they are differentiable, they can be decomposed into a number of convex problems    
+
+[https://stats.stackexchange.com/questions/106334/cost-function-of-neural-network-is-non-convex](https://stats.stackexchange.com/questions/106334/cost-function-of-neural-network-is-non-convex)
+
+[https://medium.com/lsc-psd/convex-optimization-in-deep-learning-ea90f1ed1c5d](https://medium.com/lsc-psd/convex-optimization-in-deep-learning-ea90f1ed1c5d)
+
+- From CS231n:
+
+    Functions like the SVM Loss function is an example of a Convex Function. There is a large amount of literature devoted to efficiently minimizing these types of functions, Once we extend our score functions ff to Neural Networks our objective functions will become non-convex.
+
+#### Q. What are logits?
+
+Logits interpreted to be the unnormalised (or not-yet normalised) predictions (or outputs) of a model. These can give results, but we don't normally stop with logits, because interpreting their raw values is not easy
+
+https://datascience.stackexchange.com/questions/31041/what-does-logits-in-machine-learning-mean
+
+For example, in case of a multi-class classification problem, logits refer to a vector of raw prediction values for each category. These logits are not scaled to add up to 1 so they are normally fed into a softmax to turn them into prob for each category.
 
 
-### Practical
-
-#### Q. What is iteration, epoch, batch size?
-*   A Forward and a Backward pass makes together one **iteration.**
-
-*   During one iteration we can either pass a subset of dataset or **“mini-batch”**or the entire dataset **“batch”.**
-*   One full pass through the entire dataset(full batch or in mini-batches) is known as an **epoch.**
-    
-    [https://stackoverflow.com/questions/36740533/what-are-forward-and-backward-passes-in-neural-networks](https://stackoverflow.com/questions/36740533/what-are-forward-and-backward-passes-in-neural-networks)
