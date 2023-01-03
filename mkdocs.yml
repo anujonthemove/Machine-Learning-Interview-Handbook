@@ -53,3 +53,4 @@ nav:
     - 'Model Training': 'model-training.md'
     - 'Model Evaluation': 'model-evaluation.md'
   - Deep Learning - Computer Vision: 'deep-learning-computer-vision.md'
+  - Resources: 'resources.md'
