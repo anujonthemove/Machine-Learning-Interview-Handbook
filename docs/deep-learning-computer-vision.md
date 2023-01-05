@@ -16,3 +16,12 @@ Read more:
 * https://www.quora.com/What-are-the-advantages-of-a-convolutional-neural-network-CNN-compared-to-a-simple-neural-network-from-the-theoretical-and-practical-perspective
 
 * https://msail.github.io/post/cnn_human_visual/
+
+
+#### Q. What are Receptive Fields in CNNs?
+
+[https://distill.pub/2019/computing-receptive-fields/#overview](https://distill.pub/2019/computing-receptive-fields/#overview)
+
+[https://blog.christianperone.com/2017/11/the-effective-receptive-field-on-cnns/](https://blog.christianperone.com/2017/11/the-effective-receptive-field-on-cnns/)
+
+[https://theaisummer.com/receptive-field/](https://theaisummer.com/receptive-field/)
