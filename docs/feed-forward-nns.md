@@ -1,5 +1,5 @@
 
-#### Q. What are Feed Forward Neural Networks? Describe in detail
+#### Q. What are Feed Forward Neural Networks?
     
 Typically, the computation in a Feed Forward Neural Network is organized in a Directed Acyclic Computational Graph(DAG) in the following manner:
 
@@ -25,6 +25,11 @@ Typically, the computation in a Feed Forward Neural Network is organized in a Di
     Ref: [https://stackoverflow.com/questions/36740533/what-are-forward-and-backward-passes-in-neural-networks](https://stackoverflow.com/questions/36740533/what-are-forward-and-backward-passes-in-neural-networks)
     
 #### Q. What is the use of Bias term?
+The bias term provides more flexibility to a model while learning the weights in a solution space. The model becomes more flexible to adapt to the optimal/best values.
+
+[https://www.turing.com/kb/necessity-of-bias-in-neural-networks](https://www.turing.com/kb/necessity-of-bias-in-neural-networks)
+
+[https://towardsdatascience.com/why-we-need-bias-in-neural-networks-db8f7e07cb98](https://towardsdatascience.com/why-we-need-bias-in-neural-networks-db8f7e07cb98)
 
 #### Q. Are neural networks convex?
 
