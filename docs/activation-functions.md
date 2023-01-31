@@ -1,24 +1,19 @@
 ### Generic
 
-#### Q. What are activation functions? 
-#### Q. What is the use of activation functions in Deep Learning? 
-#### Q. What are some of the commonly used activation functions?
+#### Q. What are activation functions? Why do we use them in Neural Networks?
 
-* [https://www.v7labs.com/blog/neural-networks-activation-functions](https://www.v7labs.com/blog/neural-networks-activation-functions)
-
-* [https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e](https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e)
-
-* [https://towardsdatascience.com/what-is-activation-function-1464a629cdca](https://towardsdatascience.com/what-is-activation-function-1464a629cdca)
-
-* [https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6](https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6)
-
-* [https://www.superannotate.com/blog/activation-functions-in-neural-networks](https://www.superannotate.com/blog/activation-functions-in-neural-networks)
-
-
-* Paper: [https://arxiv.org/pdf/2101.09957v1.pdf](https://arxiv.org/pdf/2101.09957v1.pdf)
+- Activation functions are mathematical operations applied to the output of each neuron in a neural network. They introduce non-linearity into the output, allowing the network to learn complex relationships between inputs and outputs. Common activation functions include sigmoid, tanh, ReLU (rectified linear unit), and softmax.
 
 #### Q. Why do we need non-linear activation functions in Neural Networks?
-* [https://stackoverflow.com/questions/9782071/why-must-a-nonlinear-activation-function-be-used-in-a-backpropagation-neural-net](https://stackoverflow.com/questions/9782071/why-must-a-nonlinear-activation-function-be-used-in-a-backpropagation-neural-net)
+- Learn more about the most commonly used activation functions in detail using the following links:
+
+    - [https://www.v7labs.com/blog/neural-networks-activation-functions](https://www.v7labs.com/blog/neural-networks-activation-functions) 
+
+    - [https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e](https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e)
+
+    - [https://towardsdatascience.com/what-is-activation-function-1464a629cdca](https://towardsdatascience.com/what-is-activation-function-1464a629cdca)
+
+    - [https://arxiv.org/pdf/2101.09957v1.pdf](https://arxiv.org/pdf/2101.09957v1.pdf)
 
 
 ___
