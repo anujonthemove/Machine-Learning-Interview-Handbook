@@ -7,6 +7,22 @@ repo_name: anujonthemove/Machine-Learning-Interview-Handbook
 
 theme:
   name: material
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  
+  
   features:
     - navigation.instant
     - navigation.top
@@ -27,6 +43,12 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - attr_list
+  - md_in_html
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -39,7 +61,13 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.arithmatex:
       generic: true
-
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 nav:
   - Home: 'index.md'
   - 'Machine Learning': 'machine-learning.md'
