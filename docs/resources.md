@@ -1,5 +1,5 @@
 # Resources
-![Resources](resources_2.png "Resources")
+![Resources](https://raw.githubusercontent.com/anujonthemove/Machine-Learning-Interview-Handbook/main/assets/images/resources_2.png "Resources")
 
 ??? warning "asdad"
 

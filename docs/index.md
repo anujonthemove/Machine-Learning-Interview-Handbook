@@ -1,6 +1,6 @@
 # Machine Learning Interview Handbook
 
-![Resources](ml_handbook_1.png "Resources")
+![Resources](https://raw.githubusercontent.com/anujonthemove/Machine-Learning-Interview-Handbook/main/assets/images/ml_handbook_1.png "Resources")
 
 
  
