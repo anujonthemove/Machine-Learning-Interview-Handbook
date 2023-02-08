@@ -1,12 +1,6 @@
 # Resources
 ![Resources](https://raw.githubusercontent.com/anujonthemove/Machine-Learning-Interview-Handbook/main/assets/images/resources_2.png "Resources")
 
-??? warning "asdad"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
 
 ## Deep Learning
 
@@ -94,7 +88,9 @@
     
 
 
-* ML interview book by Chip Huyen: https://huyenchip.com/ml-interviews-book/ 
+
+
+<!-- * ML interview book by Chip Huyen: https://huyenchip.com/ml-interviews-book/ 
 
 * Machine Learning Flash Cards: 
 
@@ -116,4 +112,4 @@ Object Detection:
 * CNNs cheatsheet: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
 
 
-
+ -->
