@@ -1,20 +1,23 @@
-#### Q. Why it is important to have a zero-centered data?
-<!-- - [https://stats.stackexchange.com/questions/237169/why-are-non-zero-centered-activation-functions-a-problem-in-backpropagation](https://stats.stackexchange.com/questions/237169/why-are-non-zero-centered-activation-functions-a-problem-in-backpropagation)
-- [https://ai.stackexchange.com/questions/26958/why-is-it-a-problem-if-the-outputs-of-an-activation-function-are-not-zero-center](https://ai.stackexchange.com/questions/26958/why-is-it-a-problem-if-the-outputs-of-an-activation-function-are-not-zero-center)
-- [https://arxiv.org/pdf/2004.06632.pdf#:~:text=The sigmoid function is bound,of (0%2C1)](https://arxiv.org/pdf/2004.06632.pdf#:~:text=The%20sigmoid%20function%20is%20bound,of%20(0%2C1)).
-- Very very important: [https://rohanvarma.me/inputnormalization/](https://rohanvarma.me/inputnormalization/) - effect of zero centring the data especially when using sigmoid -->
+??? question "Why is it important to have a zero-centered data?"
 
-#### Q. Feature Scaling: Standardization vs Normalization
-[https://towardsdatascience.com/normalization-vs-standardization-quantitative-analysis-a91e8a79cebf](https://towardsdatascience.com/normalization-vs-standardization-quantitative-analysis-a91e8a79cebf)
-
-- Both are feature scaling methods
-- Every dataset does not require features scaling.
-- It is required only when features have different ranges.
-- 2 techniques:
-    - Normalization(also called min-max scaling): features will be rescaled so that the data will fall in the range of [0,1]
-    - Standardization (also called, Z-score normalization): the features will be rescaled so that they’ll have the properties of a standard normal distribution with mean,μ=0 and standard deviation, σ=1; where μ is the mean (average) and σ is the standard deviation from the mean. This scales the features in a way that they range between [-1,1]
-- [https://stats.stackexchange.com/questions/10289/whats-the-difference-between-normalization-and-standardization](https://stats.stackexchange.com/questions/10289/whats-the-difference-between-normalization-and-standardization)
-- **Implications**: if you have outliers in your feature (column), normalizing your data will scale most of the data to a small interval, which means all features will have the same scale but does not handle outliers well. Standardisation is more robust to outliers, and in many cases, it is preferable over Max-Min Normalisation. [https://www.kdnuggets.com/2020/04/data-transformation-standardization-normalization.html](https://www.kdnuggets.com/2020/04/data-transformation-standardization-normalization.html)
+    - It is important to have zero-centered data for input to Neural Networks because it helps to ensure that the input features are on a similar scale, which can improve the performance of the network. When the features of the input data are on different scales, some features may dominate others, making it difficult for the network to learn meaningful representations of the data. By zero-centering the data, the mean of the input features is subtracted from each feature, so that the mean of the input data is 0.  
+    
+    - Additionally, zero-centering the data can help to speed up convergence of the optimization algorithm, as it helps to ensure that the optimization problem is well-conditioned.
 
 
-#### Q. What is Batchnorm?
+??? question "What is feature scaling?"
+    - Feature scaling is a pre-processing step in deep learning where the values of the input features are normalized to a common range. 
+    
+    - The goal of feature scaling is to avoid having input features with large magnitude dominate the learning process of the model. 
+    
+    - Common scaling techniques include standardization, where features are transformed to have zero mean and unit variance, and normalization, where features are rescaled to a specific range such as [0, 1].
+
+??? question "What is the difference between Standardization and Normalization?"
+
+    - Standardization and normalization are two techniques used to preprocess input data in deep learning.
+    
+    - Standardization involves transforming the data so that it has a mean of 0 and a standard deviation of 1. This means that the data is centered around the origin and scaled so that it has similar magnitudes. This is often used when the features in the input data have different scales and units, as it allows the model to treat all features equally.
+    
+    - Normalization, on the other hand, involves transforming the data so that it has a minimum of 0 and a maximum of 1. This is often used when the input data is sparse and has a wide range of values. Normalization ensures that the scale of the data does not have an impact on the performance of the model.
+    
+    - In summary, standardization is used to center and scale the data, while normalization is used to rescale the data so that it has a minimum and maximum value.
