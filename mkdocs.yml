@@ -31,7 +31,7 @@ theme:
     # - navigation.tabs.sticky
 
   palette:
-    primary: green
+    primary: blue
   
   font:
     text: Epilogue
